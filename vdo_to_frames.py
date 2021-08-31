@@ -10,7 +10,7 @@ while True:
     count+=1
     _, frame = cap.read()
     cv2.imwrite("frames/"+str(count)+".jpg",frame)
-    #here frames/ is a folder name of my system, where vedio frames will be save 
+    #here frames/ is a folder name of my system, where video's frames will be save 
     
 
     
